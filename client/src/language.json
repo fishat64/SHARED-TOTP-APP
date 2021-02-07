@@ -1,0 +1,40 @@
+{
+    "en": {
+        "App": {
+
+        },
+        "components/create": {
+            "copyied": "Copyied ...",
+            "somethingWentWrong": "Something went wrong... ",
+            "TOKEN": "Token",
+            "TOKENBASE32": "Token must be base32",
+            "PASSWORD": "Password",
+            "SUBMIT": "create new Entry",
+            "IDENTIFIERIS": "Your identifier is:",
+            "COPY": "copy"
+        },
+        "components/get": {
+            "copyied": "Copyied ...",
+            "somethingWentWrong": "Something went wrong... ",
+            "PASSWORD": "Your Password",
+            "SUBMIT": "Get TOTP",
+            "IDENTIFIER": "Your Identifier",
+            "COPY": "copy",
+            "GETHOTP": "Get Time based One-Time-Password (TOTP)",
+            "HOTPTOKENIS": "Your TOTP is:"
+        },
+        "components/remove": {
+            "SuccessRemoved": "Success, the following Identifier was removed from database.",
+            "somethingWentWrong": "Something went wrong... ",
+            "REMOVETOTP": "Remove Entry",
+            "IDENTIFIER":"Your Identifier",
+            "PASSWORD":"Your Password",
+            "AREYOUSURE": "Are you sure, you want to delete this entry?",
+            "TEST": "Input solution",
+            "SUBMIT": "REMOVE"
+        }
+    },
+    "de":  {
+
+    }
+}

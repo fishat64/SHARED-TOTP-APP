@@ -1,0 +1,30 @@
+{
+  "name": "hotp_auth_app",
+  "version": "1.0.0",
+  "description": "See README.md",
+  "main": "server/server.js",
+  "scripts": {
+    "initProject": "node config.js --newconfig --clientconfig",
+    "startDev": "node ./server/server.js & (cd client && npm start)",
+    "installProject": "(cd client && npm i) & npm i",
+    "buildFE": "(cd client && npm run build)",
+    "cleanup": "( rm package-lock.json && rm -rf node_modules/* && rm -rf server/db/* && rm config.json ) & ( rm client/package-lock.json && rm -rf client/node_modules/* && rm -rf client/build/* && rm client/src/config.json )",
+    "test": "exit 1",
+    "startProd": "node ./server/server.js"
+  },
+  "author": "Timon Oerder",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "fs": "0.0.1-security",
+    "hi-base32": "^0.5.0",
+    "nedb": "^1.8.0",
+    "uuid": "^8.3.2"
+  }
+}
