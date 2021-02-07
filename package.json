@@ -1,5 +1,5 @@
 {
-  "name": "hotp_auth_app",
+  "name": "totp_auth_app",
   "version": "1.0.0",
   "description": "See README.md",
   "main": "server/server.js",
